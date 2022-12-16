@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUSTIFY-CONTENT</title>
+</head>
+<body>
+    <h1>CSS-FLEX JUSTIFY-CONTENT</h1>
+    <h3>Justify Content is used to allign the items along the vertical direction or main axis.
+        It is used to give space between the items.
+    </h3>
+    <h2>Justify-content-->flex-start</h2>
+    <h3>It is the default property of justify-content by default the item will start from the 
+        left side</h3>
+        <div class="container">
+            <div class="box1"> BOX1</div>
+            <div class="box2"> BOX2</div>
+            <div class="box3"> BOX3</div>
+        </div>
+        <h2>Justify-content-->flex-end</h2>
+        <h3>This propert is used to move the items to the end</h3>
+        <div class="container2">
+            <div class="box1"> BOX1</div>
+            <div class="box2"> BOX2</div>
+            <div class="box3"> BOX3</div>
+        </div>
+        <h2>justify-content-->center</h2>
+        <h3>This propert is used to move the items to the center</h3>
+        <div class="container3">
+            <div class="box1"> BOX1</div>
+            <div class="box2"> BOX2</div>
+            <div class="box3"> BOX3</div>
+        </div>
+        <h2>justify-content-->space around</h2>
+        <h3>In this case it spreads space around the items with equal space but when items have their own space it takes space in respective of therir properties or in other words this property is used to evenly distributes the items, with equal space around them.</h3>
+        <div class="container4">
+            <div class="box1"> BOX1</div>
+            <div class="box2"> BOX2</div>
+            <div class="box3"> BOX3</div>
+        </div>
+        <h2>justify-content-->space evenly</h2>
+        <h3>In this case it spreads space evenly for the items with equal space or in other words 
+            this property is used to distribute equal space around the items.
+        </h3>
+        <div class="container5">
+            <div class="box1"> BOX1</div>
+            <div class="box2"> BOX2</div>
+            <div class="box3"> BOX3</div>
+        </div>
+        <h2>justify-content-->space between</h2>
+        <h3>In this case it spreads space between the items with equal space. the first item at the start and the last item at the end of the web page</h3>
+        <div class="container6">
+            <div class="box1"> BOX1</div>
+            <div class="box2"> BOX2</div>
+            <div class="box3"> BOX3</div>
+        </div>
+        <style>
+            .container{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            justify-content: flex-start;
+        }
+            .container2{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .container3{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            justify-content:center;
+        }
+        .container4{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            justify-content: space-around;
+        }
+        .container5{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .container6{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        *{
+            background-color: #DDD101;
+        }
+        .box1{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #CAD5E2;
+            background-color: #8D3DAF;
+            border-radius: 2px solid #FF6666;
+            color: #CAD5E2;
+            margin: 3px;
+            text-align: center;
+        }
+        .box2{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #CAD5E2;
+            background-color: #8D3DAF;
+            border-radius: 2px solid #FF6666;
+            color: #CAD5E2;
+            margin: 3px;
+            text-align: center;
+            
+        }
+        .box3{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #CAD5E2;
+            background-color: #8D3DAF;
+            border-radius: 2px solid #FF6666;
+            color: #CAD5E2;
+            margin: 3px;
+            text-align: center;
+        }
+        </style>
+</body>
+</html>

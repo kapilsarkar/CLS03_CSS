@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allign Items</title>
+</head>
+<body>
+    <h1>CSS FLEX-Allign Items</h1>
+    <h3>It is used to control the alignment of items along the cross-axis.</h3>
+    <h2>Allign Items-Flex Start</h2>
+    <h3>In this case items are placed at the start of the cross-axis</h3>
+    <div class="container">
+        <div class="box1"> BOX1</div>
+        <div class="box2"> BOX2</div>
+        <div class="box3"> BOX3</div>
+    </div>
+    <h2>Allign Items-Flex End</h2>
+    <h3>In this case with flex-end items are placed at the end of the cross-axis</h3>
+    <div class="container2">
+        <div class="box1"> BOX1</div>
+        <div class="box2"> BOX2</div>
+        <div class="box3"> BOX3</div>
+    </div>
+    <h2>Allign Items-Center</h2>
+    <h3>It is used for align-items vertically center or in other words this property is used to align items to the center along the cross-axis.</h3>
+    <div class="container3">
+        <div class="box1"> BOX1</div>
+        <div class="box2"> BOX2</div>
+        <div class="box3"> BOX3</div>
+    </div>
+    
+    <h2>Row gap</h2>
+    <h3>This property is used to Provides gap between rows </h3>
+    <div class="container5">
+        <div class="box1"> BOX1</div>
+        <div class="box2"> BOX2</div>
+        <div class="box3"> BOX3</div>
+    </div>
+    <style>
+         .container{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            align-items: flex-start;
+        }
+        .container2{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            align-items: flex-end;
+        }
+        .container3{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+        }
+        .container4{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            align-items: stretch;
+           
+        }
+        .container5{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            row-gap: 300px;
+           
+        }
+        *{
+            background-color: #DDD101;
+        }
+        .box1{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #CAD5E2;
+            background-color: #8D3DAF;
+            border-radius: 2px solid #FF6666;
+            color: #CAD5E2;
+            margin: 3px;
+            text-align: center;
+        }
+        .box2{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #CAD5E2;
+            background-color: #8D3DAF;
+            border-radius: 2px solid #FF6666;
+            color: #CAD5E2;
+            margin: 3px;
+            text-align: center;
+            
+        }
+        .box3{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #CAD5E2;
+            background-color: #8D3DAF;
+            border-radius: 2px solid #FF6666;
+            color: #CAD5E2;
+            margin: 3px;
+            text-align: center;
+        }
+    </style>
+</body>
+</html>

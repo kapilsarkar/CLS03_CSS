@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX-GROW,SHRINK</title>
+</head>
+<body>
+    <h2>FLEX-GROW</h2>
+    <h3>It states the ability for a flex item to grow if necessary</h3>
+    <h3>If all items have flex-grow set to 1, the remaining space in the container will be distributed equally to all children.</h3>
+    <div class="container">
+        <div class="box1"> BOX1</div>
+        <div class="box2"> BOX2</div>
+        <div class="box3"> BOX3</div>
+        <div class="box4"> BOX4</div>
+        <div class="box5"> BOX5</div>
+    </div>
+    <h3>Here the properties for box1 is set to flex-grow:2 and for box5 it is set to flex-grow:2.</h3>
+    <h2>FLEX-SHRINK</h2>
+    <h3>It allows the CSS items to shrink according to the properties of CSS</h3>
+    <div class="container2">
+        <div class="box1"> BOX1</div>
+        <div class="box2"> BOX2</div>
+        <div class="box3"> BOX3</div>
+        <div class="box4"> BOX4</div>
+        <div class="box5"> BOX5</div>
+    </div>
+    <style>
+        .container{
+           height: 300px;
+           width: 500px;
+           border: 2px solid #2827CC;
+           background-color: #03C6C7;
+           display: flex;
+           flex-wrap: wrap;
+           
+       }
+       .container2{
+           height: 300px;
+           width: 500px;
+           border: 2px solid #2827CC;
+           background-color: #03C6C7;
+           display: flex;
+           flex-wrap: wrap;
+           
+       }
+       .box1{
+           width: 70px;
+           height: 70px;
+           border: 2px solid #CAD5E2;
+           background-color: #8D3DAF;
+           border-radius: 2px solid #FF6666;
+           color: #CAD5E2;
+           margin: 3px;
+           text-align: center;
+           flex-shrink: 2;
+       }
+       .box2{
+           width: 70px;
+           height: 70px;
+           border: 2px solid #CAD5E2;
+           background-color: #8D3DAF;
+           border-radius: 2px solid #FF6666;
+           color: #CAD5E2;
+           margin: 3px;
+           text-align: center;
+           flex-grow: 2;
+           
+       }
+       .box3{
+           width: 70px;
+           height: 70px;
+           border: 2px solid #CAD5E2;
+           background-color: #8D3DAF;
+           border-radius: 2px solid #FF6666;
+           color: #CAD5E2;
+           margin: 3px;
+           text-align: center;
+       }
+       .box4{
+           width: 70px;
+           height: 70px;
+           border: 2px solid #CAD5E2;
+           background-color: #8D3DAF;
+           border-radius: 2px solid #FF6666;
+           color: #CAD5E2;
+           margin: 3px;
+           text-align: center;
+       }
+       .box5{
+           width: 70px;
+           height: 70px;
+           border: 2px solid #CAD5E2;
+           background-color: #8D3DAF;
+           border-radius: 2px solid #FF6666;
+           color: #CAD5E2;
+           margin: 3px;
+           text-align: center;
+           flex-grow: 2;
+       }
+       *{
+           background-color: #DDD101;
+       }
+   </style>
+</body>
+</html>

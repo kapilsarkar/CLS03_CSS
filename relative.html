@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS POSITION RELATIVE</title>
+</head>
+<body>
+    <h1>CSS POSITIONING</h1>
+    <h2>Position:RELATIVE</h2>
+         <p>relative:in the case of relative the element will not stick with the normal page flow so if there is property change then the change will be visible
+            as in this case the position of box2 and box4 are relative so changes will be visible in this case.
+         </p>
+         <h2>It calculates the area from its original position where it is placed.</h2>
+         <h1>RELATIVE VS ABSOLUTE :
+            RELATIVE POSITION ELEMENT WILL CAUSE ELEMENT TO ADJUST FROM ITS NORMAL POSITION 
+            WHEREAS AN ELEMENT WITH POSITION ABSOLUTE WILL CAUSE TO ADJUST ITS POSITION WITH RESPECT
+            TO ITS PARENT AND IF NO PARENT IS PRESENT THEN IT USES THE DOCUMENT BODY AS PARENT.
+
+            IN RELATIVE POSITIONING THE OTHER OBJECTS OR ELEMENTS WILL NOT FILL THE GAP BUT IN ABSOLUTE
+            POSITIONING THE OTHER OBJECTS ORB ELEMENTS WILL FILL THE GAP.
+         </h1>
+         <div class="box box1">BOX1</div>
+         <div class="box box2">BOX2</div>
+         <div class="box box3">BOX3</div>
+         <div class="box box4">BOX4</div>
+         <div class="box box5">BOX5</div>
+         <style>
+            .box{
+            background-color: #8D3DAF;
+            height: 100px;
+            width: 100px;
+            font-size: 20px;
+            text-align: center;
+            display: inline-block;
+            color: #CAD5E2;
+            border: 2px solid #E03B8B;
+            border-radius: 5px;
+       }
+       .box2,.box4{
+        position: relative;
+        top:20px;
+       }
+       *{
+            background-color: #E5D68A;
+            
+        }
+        li{
+            list-style-type: circle;
+        }
+         </style>
+</body>
+</html>

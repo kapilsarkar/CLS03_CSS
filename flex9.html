@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALLIGN SELF</title>
+</head>
+<body>
+    <h2>ALLIGN-SELF</h2>
+    <h3>With the help this CSS property we can separate items to Flex-start, flex-end, center, stretch, and baseline.</h3>
+    <div class="container">
+        <div class="box1"> BOX1</div>
+        <div class="box2"> BOX2</div>
+        <div class="box3"> BOX3</div>
+        <div class="box4"> BOX4</div>
+        <div class="box5"> BOX5</div>
+    </div>
+    
+    <h3>Here in the first case the box1 is set to flex-end with the allign-self CSS property</h3>
+    <h3>Here in the second case the box2 is set to center with the allign-self CSS property</h3>
+    <!-- <h3>Here in the third case the box4 is set to flex-start with the allign-self CSS property</h3> -->
+    <style>
+        .container{
+           height: 300px;
+           width: 500px;
+           border: 2px solid #2827CC;
+           background-color: #03C6C7;
+           display: flex;
+           flex-wrap: wrap;
+           
+       }
+       
+       .box1{
+           width: 70px;
+           height: 70px;
+           border: 2px solid #CAD5E2;
+           background-color: #8D3DAF;
+           border-radius: 2px solid #FF6666;
+           color: #CAD5E2;
+           margin: 3px;
+           text-align: center;
+           align-self: flex-end;
+          
+       }
+       .box2{
+           width: 70px;
+           height: 70px;
+           border: 2px solid #CAD5E2;
+           background-color: #8D3DAF;
+           border-radius: 2px solid #FF6666;
+           color: #CAD5E2;
+           margin: 3px;
+           text-align: center;
+           align-self: center;
+           
+           
+       }
+       .box3{
+           width: 70px;
+           height: 70px;
+           border: 2px solid #CAD5E2;
+           background-color: #8D3DAF;
+           border-radius: 2px solid #FF6666;
+           color: #CAD5E2;
+           margin: 3px;
+           text-align: center;
+          
+       }
+       .box4{
+           width: 70px;
+           height: 70px;
+           border: 2px solid #CAD5E2;
+           background-color: #8D3DAF;
+           border-radius: 2px solid #FF6666;
+           color: #CAD5E2;
+           margin: 3px;
+           text-align: center;
+          
+       }
+       .box5{
+           width: 70px;
+           height: 70px;
+           border: 2px solid #CAD5E2;
+           background-color: #8D3DAF;
+           border-radius: 2px solid #FF6666;
+           color: #CAD5E2;
+           margin: 3px;
+           text-align: center;
+           align-self:baseline;
+          
+       }
+       *{
+           background-color: #DDD101;
+       }
+   </style>
+</body>
+</html>

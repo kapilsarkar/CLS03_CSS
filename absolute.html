@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABSOLUTE</title>
+</head>
+<body>
+    <h1>CSS POSITIONING</h1>
+    <h2>Position:ABSOLUTE</h2>
+    <h2>It calculates everything from parent i.e web page</h2>
+    <p>In case of Position absolute it is almost similar to the position static but here we can play
+        around with the top left right bottom.
+        When the element moves to another location previous space is occupied by another element. It makes position absolute more usable than relative.
+    </p>
+    <p>Element with position: absolute is completely removed from the original document flow. With the help of top left right left, and z-index properties, we can position this element anywhere relative to its closest parent. When an absolute positioned element has no positioned parent element, it uses the document body, Let’s try to get this clear with an example.</p>
+    <div class="box box1">BOX1</div>
+         <div class="box box2">BOX2</div>
+         <div class="box box3">BOX3</div>
+         <div class="box box4">BOX4</div>
+         <div class="box box5">BOX5</div>
+         <style>
+            .box{
+            background-color: #8D3DAF;
+            height: 100px;
+            width: 100px;
+            font-size: 20px;
+            text-align: center;
+            display: inline-block;
+            color: #CAD5E2;
+            border: 2px solid #E03B8B;
+            border-radius: 5px;
+       }
+       *{
+            background-color: #E5D68A;
+            
+        }
+        .box2{
+            position: absolute;
+            bottom: 40px;
+            right: 20px;
+        }
+        
+         </style>
+         <p>Element with position: absolute is completely removed from the original document flow. With the help of top left right left, and z-index properties, we can position this element anywhere relative to its closest parent. When an absolute positioned element has no positioned parent element, it uses the document body, Let’s try to get this clear with an example.</p>
+         <p>In the above example, I have applied an absolute position to the 2nd box .box2{position: absolute;bottom:40px;right:20px} and as you can see 3rd box has been removed from the original document flow and has been positioned according to the bottom:10px;right:10px properties. in our example, there is no parent element to the box elements so the box is positioned relative to the document body.</p>
+</body>
+</html>

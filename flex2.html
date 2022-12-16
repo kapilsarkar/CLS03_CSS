@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX DIRECTION</title>
+</head>
+<body>
+    <h1>FLEX DIRECTION IN CSS--></h1>
+    <h2>FLEX DIRECTION-ROW</h2>
+    <h3>The default direction of flex-direction property is row.This property sets the row as the
+        cross axis means the horizontal direction
+    </h3>
+    <div class="container">
+        <div class="box1"> BOX1</div>
+        <div class="box2"> BOX2</div>
+        <div class="box3"> BOX3</div>
+    </div>
+    <h2>FLEX DIRECTION-ROW REVERSE</h2>
+    <h3>This property reverses the items from left to right to right to left and moves the element toward the end of the container.</h3>
+    <div class="container2">
+        <div class="box1"> BOX1</div>
+        <div class="box2"> BOX2</div>
+        <div class="box3"> BOX3</div>
+    </div>
+    <h2>FLEX DIRECTION-COLUMN</h2>
+    <h3>This property set’s the column as the main axis means the vertical direction, so items are arranged from top to bottom.</h3>
+    <div class="container3">
+        <div class="box1"> BOX1</div>
+        <div class="box2"> BOX2</div>
+        <div class="box3"> BOX3</div>
+    </div>
+    <h2>FLEX DIRECTION-COLUMN REVERSE</h2>
+    <h3>This property reverses the items from top to bottom to bottom to top and moves the item toward the end of the container.</h3>
+    <div class="container4">
+        <div class="box1"> BOX1</div>
+        <div class="box2"> BOX2</div>
+        <div class="box3"> BOX3</div>
+    </div>
+    <style>
+        .container{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            /* flex-direction: row; */
+            
+        }
+        .container2{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            flex-direction: row-reverse;
+            
+        }
+        .container3{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            flex-direction:column;
+            
+        }
+        .container4{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            flex-direction:column-reverse;
+            
+        }
+        *{
+            background-color: #DDD101;
+        }
+        .box1{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #CAD5E2;
+            background-color: #8D3DAF;
+            border-radius: 2px solid #FF6666;
+            color: #CAD5E2;
+            margin: 3px;
+            text-align: center;
+        }
+        .box2{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #CAD5E2;
+            background-color: #8D3DAF;
+            border-radius: 2px solid #FF6666;
+            color: #CAD5E2;
+            margin: 3px;
+            text-align: center;
+            
+        }
+        .box3{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #CAD5E2;
+            background-color: #8D3DAF;
+            border-radius: 2px solid #FF6666;
+            color: #CAD5E2;
+            margin: 3px;
+            text-align: center;
+        }
+    </style>
+</body>
+</html>

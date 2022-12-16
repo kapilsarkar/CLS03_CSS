@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WRAP-CONTENT</title>
+</head>
+<body>
+    <h1>CSS-FLEX WRAP CONTENT</h1>
+    <h3>In CSS FLEX WRAP CONTENT by default, every item would be fitted in one line, but the items can be wrapped and moved to the nest line.
+        There are three values flex-wrap: wrap,flex-wrap:wrap-reverse and flex-wrap: nowrap.
+        It allows us to wrap the content in webpages and make use of it as and when required.
+        By default the property of flex wrap is nowrap.
+    </h3>
+    <h2>Flex-Wrap:NoWrap--></h2>
+    <h3>By default the property of flex wrap is no wrap.so it will not wrap the items into the next line.</h3>
+    <div class="container3">
+        <div class="box1"> BOX1</div>
+        <div class="box2"> BOX2</div>
+        <div class="box3"> BOX3</div>
+        <div class="box3"> BOX3</div>
+        <div class="box4"> BOX4</div>
+        <div class="box5"> BOX5</div>
+        <div class="box6"> BOX6</div>
+        <div class="box7"> BOX7</div>
+    </div>
+    <h2>Flex-Wrap:Wrap--></h2>
+    <h3>It will wrap content into multiple lines from top to bottom approach.Here box6 and box7 are     wrap into the next line.
+        If the size of the container is redused then by wrap property the items will be moving to the next line.
+    </h3>
+    <div class="container">
+        <div class="box1"> BOX1</div>
+        <div class="box2"> BOX2</div>
+        <div class="box3"> BOX3</div>
+        <div class="box3"> BOX3</div>
+        <div class="box4"> BOX4</div>
+        <div class="box5"> BOX5</div>
+        <div class="box6"> BOX6</div>
+        <div class="box7"> BOX7</div>
+    </div>
+    <h2>Flex-wrap: wrap-reverse--></h2>
+    <h3>In this property it will wrap the items in the next line but from bottom to top</h3>
+    <div class="container2">
+        <div class="box1"> BOX1</div>
+        <div class="box2"> BOX2</div>
+        <div class="box3"> BOX3</div>
+        <div class="box4"> BOX4</div>
+        <div class="box5"> BOX5</div>
+        <div class="box6"> BOX6</div>
+        <div class="box7"> BOX7</div>
+    </div>
+    <style>
+         .container{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container2{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            flex-wrap: wrap-reverse;
+            
+        }
+        .container3{
+            height: 300px;
+            width: 500px;
+            border: 2px solid #2827CC;
+            background-color: #03C6C7;
+            display: flex;
+            flex-wrap: nowrap;
+            
+        }
+        *{
+            background-color: #DDD101;
+        }
+        .box1{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #CAD5E2;
+            background-color: #8D3DAF;
+            border-radius: 2px solid #FF6666;
+            color: #CAD5E2;
+            margin: 3px;
+            text-align: center;
+        }
+        .box2{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #CAD5E2;
+            background-color: #8D3DAF;
+            border-radius: 2px solid #FF6666;
+            color: #CAD5E2;
+            margin: 3px;
+            text-align: center;
+            
+        }
+        .box3{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #CAD5E2;
+            background-color: #8D3DAF;
+            border-radius: 2px solid #FF6666;
+            color: #CAD5E2;
+            margin: 3px;
+            text-align: center;
+        }
+        .box4{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #CAD5E2;
+            background-color: #8D3DAF;
+            border-radius: 2px solid #FF6666;
+            color: #CAD5E2;
+            margin: 3px;
+            text-align: center;
+        }
+        .box5{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #CAD5E2;
+            background-color: #8D3DAF;
+            border-radius: 2px solid #FF6666;
+            color: #CAD5E2;
+            margin: 3px;
+            text-align: center;
+        }
+        .box6{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #CAD5E2;
+            background-color: #8D3DAF;
+            border-radius: 2px solid #FF6666;
+            color: #CAD5E2;
+            margin: 3px;
+            text-align: center;
+        }
+        .box7{
+            width: 70px;
+            height: 70px;
+            border: 2px solid #CAD5E2;
+            background-color: #8D3DAF;
+            border-radius: 2px solid #FF6666;
+            color: #CAD5E2;
+            margin: 3px;
+            text-align: center;
+        }
+    </style>
+</body>
+</html>

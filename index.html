@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS POSITIONING</title>
+</head>
+<body>
+    <h1>CSS POSITIONING</h1>
+    <ul>
+        <li>STATIC</li>
+        <li>RELATIVE</li>
+        <li>ABSOLUTE</li>
+        <li>FIXED</li>
+        <li>STICKY</li>
+    </ul>
+    <p>With the help of CSS Positioning many things could be managed we could do so by the help
+         of some Properties in CSS Positioning</p>
+         <p>Let us see how we could achieve those</p>
+         <h2>Position:STATIC</h2>
+         <p>static: every element has a static position by default, so the element will stick to the normal page flow. So if there is a left/right/top/bottom/z-index set then there will be no effect on that element.</p>
+         <div class="box box1">BOX1</div>
+         <div class="box box2">BOX2</div>
+         <div class="box box3">BOX3</div>
+         <div class="box box4">BOX4</div>
+         <div class="box box5">BOX5</div>
+         <p>By default all the positions of the elements are static
+            So no change is observed.
+         </p>
+         
+    <style>
+        .box{
+            background-color: #8D3DAF;
+            height: 100px;
+            width: 100px;
+            font-size: 20px;
+            text-align: center;
+            display: inline-block;
+            color: #CAD5E2;
+            border: 2px solid #E03B8B;
+            border-radius: 5px;
+       }
+       .box1{
+        top: 20px;
+       }
+       
+        *{
+            background-color: #E5D68A;
+            
+        }
+        li{
+            list-style-type: circle;
+        }
+    </style>
+</body>
+</html>
